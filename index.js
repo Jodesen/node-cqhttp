@@ -54,3 +54,5 @@ schedule.scheduleJob('0 30 7 * * ?', () => {
 schedule.scheduleJob('0 0 23 * * ?', () => {
     night.main(ws)
 });
+
+测试das
