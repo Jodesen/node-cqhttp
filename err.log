@@ -1,0 +1,17 @@
+/usr/local/Rebot/node-rebot/node_modules/bindings/bindings.js:121
+        throw e;
+        ^
+
+Error: /usr/local/Rebot/node-rebot/node_modules/better-sqlite3/build/Release/better_sqlite3.node: invalid ELF header
+    at Object.Module._extensions..node (node:internal/modules/cjs/loader:1189:18)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at bindings (/usr/local/Rebot/node-rebot/node_modules/bindings/bindings.js:112:48)
+    at new Database (/usr/local/Rebot/node-rebot/node_modules/better-sqlite3/lib/database.js:48:64)
+    at Object.<anonymous> (/usr/local/Rebot/node-rebot/plug/daliy/index.js:5:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10) {
+  code: 'ERR_DLOPEN_FAILED'
+}
